@@ -1,0 +1,117 @@
+body {
+  font-family: 'Poppins', sans-serif; /* Aplica la fuente Poppins como la fuente predeterminada */
+}
+
+.container {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.carousel-inner {
+  border-radius: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #007bff;
+}
+
+.carousel-control-prev-icon:after,
+.carousel-control-next-icon:after {
+  color: #fff;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: #0056b3;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.text-white {
+  color: #fff;
+}
+
+/* Bootstrap Carousel Style */
+#carouselExampleFade.carousel.slide.carousel-fade {
+  margin-top: 20px;
+  background-color: #f8f9fa;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#carouselExampleFade .carousel-item img {
+  border-radius: 10px;
+}
+
+#carouselExampleFade .carousel-control-prev,
+#carouselExampleFade .carousel-control-next {
+  width: 5%;
+}
+
+#carouselExampleFade .carousel-control-prev-icon,
+#carouselExampleFade .carousel-control-next-icon {
+  background-color: #007bff;
+}
+
+#carouselExampleFade .carousel-control-prev-icon:after,
+#carouselExampleFade .carousel-control-next-icon:after {
+  color: #fff;
+}
+
+#carouselExampleFade .carousel-control-prev:hover,
+#carouselExampleFade .carousel-control-next:hover {
+  background-color: #0056b3;
+}
+
+.carousel-control-prev {
+  background-color: #007bff; /* Cambia este color según tus preferencias */
+  color: #fff; /* Cambia este color según tus preferencias */
+  border: none; /* Para eliminar el borde del botón si lo deseas */
+  /* Añade más estilos según sea necesario */
+}
+
+
+.card-body {
+  font-family: Arial, sans-serif; /* Cambia la fuente según tus preferencias */
+  padding: 10px; /* Ajusta el relleno según sea necesario */
+}
+
+.card-body {
+  text-align: justify;
+}
+.card-title {
+  font-size: 1.25rem; /* Cambia el tamaño de fuente del título según tus preferencias */
+  color: #333; /* Cambia el color del título según tus preferencias */
+}
+
+.card-text {
+  font-size: 1rem; /* Cambia el tamaño de fuente del texto según tus preferencias */
+  color: #555; /* Cambia el color del texto según tus preferencias */
+}

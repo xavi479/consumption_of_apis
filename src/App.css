@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+.wines-container {
+  width: 80%;
+  margin: auto;
+}
+
+.wine-item {
+  text-align: center;
+}
+
+.wine-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.wine-details {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.main-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para el título de la página */
+.page-title {
+  text-align: center;
+  color: #333;
+}
+
+/* Estilos para el botón de reset */
+.reset-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.reset-button {
+  font-size: 16px;
+}

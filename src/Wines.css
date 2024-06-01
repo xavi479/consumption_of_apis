@@ -1,0 +1,22 @@
+.main-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para el título de la página */
+.page-title {
+  text-align: center;
+  color: #333;
+}
+
+/* Estilos para el botón de reset */
+.reset-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.reset-button {
+  font-size: 16px;
+}
